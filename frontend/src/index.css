@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* this is used to reset mi dropdown bottom-down placement bottom-margin */
+div[role="tooltip"] {
+  top: -60px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .responsiveTitle {
+    font-size: 3.5vw !important;
+  }
+}
